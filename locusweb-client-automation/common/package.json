@@ -1,0 +1,25 @@
+{
+  "name": "locus-automation-common",
+  "version": "1.0.0",
+  "description": "Shared library for automation",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api_tests": "node ./node_modules/mocha/bin/mocha --timeout=100000 src/tests/testSetAPI.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/locusview/locus-automation-common.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "devDependencies": {
+    "axios": "^0.21.1",
+    "axios-debug-log": "^0.8.4",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "core-js": "^3.23.3",
+    "mocha": "^10.0.0",
+    "puppeteer": "^15.3.1"
+  }  
+}
